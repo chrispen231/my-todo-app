@@ -74,31 +74,7 @@
       margin-right: auto;
       line-height: 1.5;
     }
-
-    /* Dark Mode Variables */
-body.dark-mode {
-  --pearl-bg: #121212;
-  --pearl-surface: rgba(30, 30, 30, 0.8);
-  --text-main: #FFFFFF;
-  --text-dim: #A0A0A0;
-  --border-soft: rgba(255,255,255,0.1);
-}
-
-/* The "Glow" for high priority tasks */
-.task-item.priority-high {
-  border-left: 4px solid var(--p-high);
-  box-shadow: 0 0 15px rgba(255, 118, 117, 0.1);
-}
-
-/* Animated Task Entrance */
-.task-item {
-  animation: slideUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
+    
 
     .date-badge {
       display: inline-block;
